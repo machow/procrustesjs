@@ -1,0 +1,30 @@
+{
+  "name": "procrustesjs",
+  "version": "0.0.0",
+  "description": "Simple javascript procrustes implementation",
+  "main": "procrustes.coffee",
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify . --outfile procrustes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machow/procrustesjs.git"
+  },
+  "author": "Michael Chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machow/procrustesjs/issues"
+  },
+  "homepage": "https://github.com/machow/procrustesjs#readme",
+  "dependencies": {
+    "coffeeify": "^1.2.0",
+    "numeric": "^1.2.6",
+    "static-kdtree": "^1.0.1"
+  }
+}

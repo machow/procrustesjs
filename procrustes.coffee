@@ -1,3 +1,6 @@
+numeric = require('numeric');
+createKDTree = require('static-kdtree');
+
 class ImageRater
     constructor: () ->
         null
