@@ -80,4 +80,4 @@ class ImageRater
     longToWide: (arr) ->
         ([arr[0][ii], arr[1][ii]] for ii in [0..arr[0].length] by 1)
 
-window.ImageRater = ImageRater
+module.exports = ImageRater
