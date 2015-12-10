@@ -27,7 +27,7 @@ class ImageRater
         theta = Math.atan(num / den)
         return theta
     
-    procrustes: (src, ref, nIters) ->
+    procrustes: (src, ref, nIters) =>
         if true
             src = src.slice()
             ref = ref.slice()
